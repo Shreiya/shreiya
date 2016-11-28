@@ -6,6 +6,7 @@ import FourthChild from './FourthChild';
 import FifthChild from './FifthChild';
 import SixthChild from './SixthChild';
 import ZeroChild from './ZeroChild';
+import ZeroZeroChild from './ZeroZeroChild';
 import './App.css';
 
 
@@ -14,6 +15,7 @@ class App extends Component {
     return (
       <div>
         <ZeroChild />
+        <ZeroZeroChild />
         <FirstChild />
           <SecondChild />
             <ThirdChild />
