@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 
 class ZeroZeroChild extends Component {
-  rener(){
+  render(){
     return(
       <section className="module content">
   <div className="container">
